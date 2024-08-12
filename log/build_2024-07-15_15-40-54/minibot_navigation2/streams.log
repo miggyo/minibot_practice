@@ -1,0 +1,114 @@
+[0.012s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/pinkbot2/install/minibot_navigation2
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.250s] -- Detecting CXX compile features - done
+[0.252s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.459s] -- Found slam_toolbox: 2.6.8 (/opt/ros/humble/share/slam_toolbox/cmake)
+[0.488s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.498s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.076s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.079s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.166s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.190s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.244s] -- Looking for pthread.h
+[1.303s] -- Looking for pthread.h - found
+[1.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.370s] -- Found Threads: TRUE  
+[1.919s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.920s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.920s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.065s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.067s] -- Found OGRE
+[2.067s] --   static     : OFF
+[2.067s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.067s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.068s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.068s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.068s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.068s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.068s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.068s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.068s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.068s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.068s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.104s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.115s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.357s] -- Found X11: /usr/include   
+[2.357s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.448s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.448s] -- Looking for gethostbyname
+[2.510s] -- Looking for gethostbyname - found
+[2.510s] -- Looking for connect
+[2.581s] -- Looking for connect - found
+[2.582s] -- Looking for remove
+[2.642s] -- Looking for remove - found
+[2.642s] -- Looking for shmat
+[2.698s] -- Looking for shmat - found
+[2.698s] -- Looking for IceConnectionNumber in ICE
+[2.760s] -- Looking for IceConnectionNumber in ICE - found
+[2.762s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.762s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.829s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.266s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.342s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.343s] -- Added test 'lint_cmake' to check CMake code style
+[3.343s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.345s] -- Added test 'xmllint' to check XML markup files
+[3.346s] -- Configuring done
+[3.351s] -- Generating done
+[3.352s] -- Build files have been written to: /home/min/dev_ws/pinkbot2/build/minibot_navigation2
+[3.367s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/pinkbot2/install/minibot_navigation2
+[3.369s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_navigation2 -- -j12 -l12
+[3.404s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_navigation2 -- -j12 -l12
+[3.423s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_navigation2
+[3.430s] -- Install configuration: ""
+[3.430s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/config
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/config/mapper_params.yaml
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch/navigation_launch.py
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch/bringup_launch.py
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch/map_building.launch.py
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch/rviz_launch.py
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/launch/localization_launch.py
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps/.empty
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.yaml
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.pgm
+[3.431s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.pgm
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.yaml
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/params
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/params/nav2_params.yaml
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/rviz
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/rviz/map_building.rviz
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/rviz/nav2_view.rviz
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/ament_index/resource_index/package_run_dependencies/minibot_navigation2
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/ament_index/resource_index/parent_prefix_path/minibot_navigation2
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.sh
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.dsv
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/environment/path.sh
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/environment/path.dsv
+[3.432s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/local_setup.bash
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/local_setup.sh
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/local_setup.zsh
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/local_setup.dsv
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.dsv
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/ament_index/resource_index/packages/minibot_navigation2
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config.cmake
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config-version.cmake
+[3.433s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.xml
+[3.435s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_navigation2

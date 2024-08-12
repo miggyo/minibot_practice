@@ -1,0 +1,10 @@
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/uninstall.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/minibot_controllers_uninstall.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/minibot_controllers.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/test.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/edit_cache.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/rebuild_cache.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/list_install_components.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/install.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/install/local.dir
+/home/min/dev_ws/pinkbot2/build/minibot_controllers/CMakeFiles/install/strip.dir

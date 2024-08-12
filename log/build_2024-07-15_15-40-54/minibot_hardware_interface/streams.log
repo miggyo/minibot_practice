@@ -1,0 +1,88 @@
+[0.013s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.498s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.509s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.127s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.130s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.163s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.208s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.223s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.231s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.239s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.257s] -- Looking for pthread.h
+[1.321s] -- Looking for pthread.h - found
+[1.322s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.382s] -- Found Threads: TRUE  
+[1.545s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.546s] -- Checking for module 'libserial'
+[1.557s] --   Found libserial, version 1.0.0
+[1.649s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.735s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.736s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.737s] -- Configured cppcheck include dirs: /home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface/include
+[1.737s] -- Configured cppcheck exclude dirs and/or files: 
+[1.738s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.738s] -- Configured cpplint exclude dirs and/or files: 
+[1.738s] -- Added test 'lint_cmake' to check CMake code style
+[1.739s] -- Added test 'uncrustify' to check C / C++ code style
+[1.739s] -- Configured uncrustify additional arguments: 
+[1.740s] -- Added test 'xmllint' to check XML markup files
+[1.742s] -- Configuring done
+[1.760s] -- Generating done
+[1.762s] -- Build files have been written to: /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface
+[1.779s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface
+[1.781s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface -- -j12 -l12
+[1.846s] [ 50%] [32mBuilding CXX object CMakeFiles/minibot_hardware_interface.dir/src/minibot_system.cpp.o[0m
+[5.060s] [100%] [32m[1mLinking CXX shared library libminibot_hardware_interface.so[0m
+[5.195s] [100%] Built target minibot_hardware_interface
+[5.207s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface -- -j12 -l12
+[5.228s] Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface
+[5.234s] -- Install configuration: ""
+[5.234s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/minibot_hardware.xml
+[5.234s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/libminibot_hardware_interface.so
+[5.235s] -- Set runtime path of "/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/libminibot_hardware_interface.so" to ""
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/include
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/include/minibot_hardware_interface
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/include/minibot_hardware_interface/minibot_system.hpp
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.sh
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.dsv
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/minibot_hardware_interface
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/minibot_hardware_interface
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.sh
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.dsv
+[5.235s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.sh
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.dsv
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.bash
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.sh
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.zsh
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.dsv
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/ament_index/resource_index/packages/minibot_hardware_interface
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/minibot_hardware_interface
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.236s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.237s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.237s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig.cmake
+[5.237s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig-version.cmake
+[5.237s] -- Installing: /home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.xml
+[5.239s] Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface

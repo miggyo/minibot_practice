@@ -1,0 +1,583 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74cd6a885ab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74cd6a8854e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74cd6a8854e0>>, mixin_verb=('build',))
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.262s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/min/dev_ws/pinkbot2'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_bringup' with type 'ros.ament_cmake' and name 'minibot_bringup'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_controllers' with type 'ros.ament_cmake' and name 'minibot_controllers'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_description' with type 'ros.ament_cmake' and name 'minibot_description'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_gazebo' with type 'ros.ament_cmake' and name 'minibot_gazebo'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_hardware_interface' with type 'ros.ament_cmake' and name 'minibot_hardware_interface'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_interfaces' with type 'ros.ament_cmake' and name 'minibot_interfaces'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_navigation2' with type 'ros.ament_cmake' and name 'minibot_navigation2'
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/min/dev_ws/pinkbot2/install
+[0.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_description', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_description', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_interfaces', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_navigation2', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_controllers', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_gazebo', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/min/dev_ws/pinkbot2/build/minibot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/min/dev_ws/pinkbot2/install/minibot_bringup', 'merge_install': False, 'path': '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.357s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_description' with build type 'ament_cmake'
+[0.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_description'
+[0.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_interfaces' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_interfaces'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_hardware_interface'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_navigation2' with build type 'ament_cmake'
+[0.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_navigation2'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_description -- -j12 -l12
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_interfaces -- -j12 -l12
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface -- -j12 -l12
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_navigation2 -- -j12 -l12
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_description -- -j12 -l12
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_navigation2 -- -j12 -l12
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_description
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface -- -j12 -l12
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_navigation2
+[0.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_description)
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_description
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description' for CMake module files
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description' for CMake config files
+[0.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_description', 'cmake_prefix_path')
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.sh'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/bin'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/lib/pkgconfig/minibot_description.pc'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/lib/python3.10/site-packages'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/bin'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.bash'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.zsh'
+[0.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_description/share/colcon-core/packages/minibot_description)
+[0.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_navigation2)
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2' for CMake module files
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_navigation2
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_navigation2', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/bin'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/lib/pkgconfig/minibot_navigation2.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/lib/python3.10/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.zsh'
+[0.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/colcon-core/packages/minibot_navigation2)
+[0.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_hardware_interface)
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface' for CMake module files
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_hardware_interface
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface' for CMake config files
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'cmake_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'ld_library_path_lib')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.sh'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/bin'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/pkgconfig/minibot_hardware_interface.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/python3.10/site-packages'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.bash'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.zsh'
+[0.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/colcon-core/packages/minibot_hardware_interface)
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_description)
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description' for CMake module files
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description' for CMake config files
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_description', 'cmake_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/lib/pkgconfig/minibot_description.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/lib/python3.10/site-packages'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_description/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_description/share/minibot_description/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_description/share/colcon-core/packages/minibot_description)
+[0.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_gazebo' with build type 'ament_cmake'
+[0.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_gazebo'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_navigation2)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2' for CMake module files
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_navigation2', 'cmake_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/lib/pkgconfig/minibot_navigation2.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/lib/python3.10/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/bin'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/minibot_navigation2/package.zsh'
+[0.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_navigation2/share/colcon-core/packages/minibot_navigation2)
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_gazebo -- -j12 -l12
+[0.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_hardware_interface)
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface' for CMake module files
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib'
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'ld_library_path_lib')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/bin'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/pkgconfig/minibot_hardware_interface.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib/python3.10/site-packages'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.bash'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/minibot_hardware_interface/package.zsh'
+[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/share/colcon-core/packages/minibot_hardware_interface)
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_gazebo -- -j12 -l12
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_gazebo
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_gazebo)
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo' for CMake module files
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo' for CMake config files
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_gazebo
+[0.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_gazebo', 'cmake_prefix_path')
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.sh'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/bin'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/lib/pkgconfig/minibot_gazebo.pc'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/lib/python3.10/site-packages'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/bin'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.bash'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.zsh'
+[0.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/colcon-core/packages/minibot_gazebo)
+[0.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_gazebo)
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo' for CMake module files
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_gazebo', 'cmake_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.sh'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/bin'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/lib/pkgconfig/minibot_gazebo.pc'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/lib/python3.10/site-packages'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/bin'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.sh'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.bash'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/minibot_gazebo/package.zsh'
+[0.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_gazebo/share/colcon-core/packages/minibot_gazebo)
+[0.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_bringup' with build type 'ament_cmake'
+[0.604s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_bringup'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_bringup': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_bringup -- -j12 -l12
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_bringup -- -j12 -l12
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_bringup': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_bringup
+[0.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_bringup)
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup' for CMake module files
+[0.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_bringup
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup' for CMake config files
+[0.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_bringup', 'cmake_prefix_path')
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.sh'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/bin'
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/lib/pkgconfig/minibot_bringup.pc'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/lib/python3.10/site-packages'
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/bin'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.sh'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.bash'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.zsh'
+[0.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/colcon-core/packages/minibot_bringup)
+[0.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_bringup)
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup' for CMake module files
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_bringup', 'cmake_prefix_path')
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.sh'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/bin'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/lib/pkgconfig/minibot_bringup.pc'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/lib/python3.10/site-packages'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_bringup/bin'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/minibot_bringup/package.zsh'
+[0.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_bringup/share/colcon-core/packages/minibot_bringup)
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_interfaces -- -j12 -l12
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_interfaces
+[0.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_interfaces)
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces' for CMake module files
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_interfaces
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces' for CMake config files
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'cmake_prefix_path')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.sh'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib'
+[0.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'ld_library_path_lib')
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.sh'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/bin'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib/pkgconfig/minibot_interfaces.pc'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib/python3.10/site-packages'
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/bin'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.bash'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.zsh'
+[0.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/colcon-core/packages/minibot_interfaces)
+[0.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_interfaces)
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces' for CMake module files
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces' for CMake config files
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'cmake_prefix_path')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.sh'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib'
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'ld_library_path_lib')
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.sh'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/bin'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib/pkgconfig/minibot_interfaces.pc'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib/python3.10/site-packages'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/bin'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.sh'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/minibot_interfaces/package.zsh'
+[0.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_interfaces/share/colcon-core/packages/minibot_interfaces)
+[0.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_controllers' with build type 'ament_cmake'
+[0.972s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/min/dev_ws/pinkbot2/src/pinklab_minibot_robot/minibot_controllers'
+[0.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_controllers': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib:/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_controllers -- -j12 -l12
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib:/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/min/dev_ws/pinkbot2/build/minibot_controllers -- -j12 -l12
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/min/dev_ws/pinkbot2/build/minibot_controllers': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib:/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_controllers
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_controllers)
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers' for CMake module files
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/min/dev_ws/pinkbot2/build/minibot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces:/home/min/dev_ws/pinkbot2/install/minibot_navigation2:/home/min/dev_ws/pinkbot2/install/minibot_controllers:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface:/home/min/dev_ws/pinkbot2/install/minibot_bringup:/home/min/dev_ws/pinkbot2/install/minibot_gazebo:/home/min/dev_ws/pinkbot2/install/minibot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/min/dev_ws/pinkbot2/install/minibot_interfaces/lib:/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib:/home/min/dev_ws/pinkbot2/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64/:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/min/dev_ws/pinkbot2/build/minibot_controllers
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers' for CMake config files
+[1.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'cmake_prefix_path')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.sh'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib'
+[1.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'ld_library_path_lib')
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/bin'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib/pkgconfig/minibot_controllers.pc'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib/python3.10/site-packages'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/bin'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.sh'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.bash'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.zsh'
+[1.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/colcon-core/packages/minibot_controllers)
+[1.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_controllers)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers' for CMake config files
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'cmake_prefix_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib'
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'ld_library_path_lib')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib/pkgconfig/minibot_controllers.pc'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/lib/python3.10/site-packages'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/min/dev_ws/pinkbot2/install/minibot_controllers/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/minibot_controllers/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/min/dev_ws/pinkbot2/install/minibot_controllers/share/colcon-core/packages/minibot_controllers)
+[1.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.103s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.107s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.107s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.107s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.118s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/dev_ws/pinkbot2/install/local_setup.ps1'
+[1.120s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/min/dev_ws/pinkbot2/install/_local_setup_util_ps1.py'
+[1.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/dev_ws/pinkbot2/install/setup.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/dev_ws/pinkbot2/install/local_setup.sh'
+[1.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/min/dev_ws/pinkbot2/install/_local_setup_util_sh.py'
+[1.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/dev_ws/pinkbot2/install/setup.sh'
+[1.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/dev_ws/pinkbot2/install/local_setup.bash'
+[1.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/dev_ws/pinkbot2/install/setup.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/min/dev_ws/pinkbot2/install/local_setup.zsh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/min/dev_ws/pinkbot2/install/setup.zsh'
